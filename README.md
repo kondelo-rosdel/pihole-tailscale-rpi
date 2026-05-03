@@ -219,15 +219,6 @@ sudo systemctl disable bluetooth         # Désactiver Bluetooth (optimisation)
 
 ---
 
-## 🔒 Considérations de sécurité
-
-- **Accès SSH** : désactivation de l'authentification par mot de passe recommandée (clé SSH uniquement)
-- **Fail2ban** : à déployer pour protéger contre les attaques brute-force sur SSH
-- **Tailscale ACL** : politique de contrôle d'accès configurable pour restreindre les communications entre nœuds
-- **Mises à jour automatiques** : configuration de `unattended-upgrades` pour les correctifs de sécurité
-
----
-
 ## 📚 Références
 
 - [Documentation Pi-hole](https://docs.pi-hole.net)
@@ -239,6 +230,6 @@ sudo systemctl disable bluetooth         # Désactiver Bluetooth (optimisation)
 
 <div align="center">
 
-*Projet personnel · Infrastructure auto-hébergée · 2025–2026*
+*Projet personnel · Infrastructure auto-hébergée · 2026*
 
 </div>
